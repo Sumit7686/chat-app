@@ -25,7 +25,7 @@ const Join = () => {
           id="JoinInput"
         />
         <Link
-          onClick={(event) => (!name ? event.preventDefault() : null)}
+          onClick={(event) => (name ? null : event.preventDefault())}
           to="/chat"
         >
           <button onClick={sendUser} className="JoinButton">
@@ -37,5 +37,5 @@ const Join = () => {
   );
 };
 
-export default Join;
 export { user };
+export default Join;

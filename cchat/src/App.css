@@ -4,3 +4,31 @@
 body {
   margin: 0;
 }
+
+@media (max-aspect-ratio: 7/10) {
+  .JoinPage {
+  }
+  .JoinContainer {
+    width: 100%;
+  }
+  .JoinContainer > img {
+    width: 30vw !important;
+  }
+  .JoinContainer > h1 {
+    font-size: 6vw !important;
+    width: 55vw !important;
+    border-bottom: 0.6vw solid whitesmoke !important;
+    padding: 3vw !important;
+  }
+  #JoinInput {
+    width: 65vw !important;
+    padding: 4vw !important;
+    font-size: 5vw !important;
+    margin: 5vw !important;
+  }
+  .JoinButton {
+    width: 25vmax;
+    padding: 1.5vmax;
+    font-size: 1.2vmax;
+  }
+}
